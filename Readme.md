@@ -15,7 +15,7 @@ PHP7-Lua-Install-Script
 How to use:
 ```bash
  $ cd /tmp
- $ git clone https://github.com/raulnet/php7-lua-install-script.git 
+ $ git clone https://github.com/Raulnet/php7-lua-install-script.git 
  $ cd php7-lua-install-script
  $ sudo ./install.sh
 ```

@@ -17,7 +17,6 @@ How to use on Linux:
  $ cd /tmp
  $ git clone https://github.com/Raulnet/php7-lua-install-script.git 
  $ cd /
- $ sudo chmod +x /tmp/php7-lua-install-script/install.sh
  $ sudo /tmp/php7-lua-install-script/install.sh
  $ sudo rm -rf /tmp/php7-lua-install-script
 ```
@@ -28,7 +27,6 @@ FROM php:7.2-apache
 ...
 RUN cd /tmp \
   && git clone https://github.com/Raulnet/php7-lua-install-script.git
-RUN ["chmod", "+x", "/tmp/php7-lua-install-script/install.sh"]
 RUN /tmp/php7-lua-install-script/install.sh \
   && rm -rf /tmp/php7-lua-install-script
 ```
